@@ -1,8 +1,9 @@
 Ext.define('MortgageApp.view.Viewport', {
     extend: 'Ext.container.Viewport',
     requires:[
-        'Ext.tab.Panel',
-        'Ext.layout.container.Border'
+	    'Ext.layout.container.Border',
+	    'MortgageApp.view.CustomerMortgageTree',
+	    'MortgageApp.view.ActionPanel'
     ],
 
     layout: {
@@ -10,15 +11,16 @@ Ext.define('MortgageApp.view.Viewport', {
     },
 
     items: [{
-        region: 'west',
-        xtype: 'panel',
-        title: 'west',
-        width: 150
+        region: 'north',
+        xtype: 'action-panel',
+        height: 50
     },{
         region: 'center',
-        xtype: 'tabpanel',
-        items:[{
-            title: 'Center Tab 1'
-        }]
+        xtype: 'customer-mortgage-tree',
+        border: 10,
+        style: {
+            borderColor: 'red',
+            borderStyle: 'solid'
+        }
     }]
 });

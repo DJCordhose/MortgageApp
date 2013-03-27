@@ -1,5 +1,10 @@
 Ext.define('MortgageApp.controller.Main', {
     extend: 'Ext.app.Controller',
+    
+    stores: [
+       'Customer'
+    ],
+    
     init: function() {
         console.log("Los geht's!");
 
