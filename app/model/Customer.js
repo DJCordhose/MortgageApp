@@ -1,6 +1,10 @@
 Ext.define('MortgageApp.model.Customer', {
     extend: 'Ext.data.Model',
-    
+
+    requires:[
+      	    'MortgageApp.model.Mortgage',
+    ],
+
     fields: [
         { name: 'id', type: 'int' },
         { name: 'name', type: 'auto' }

@@ -24,14 +24,16 @@ Ext.define('MortgageApp.controller.Main', {
     },
 
     onDumpButtonClick: function(button,event,eOpts) {
-        console.log('Dump Button clicked: ' + button.getItemId());
-        
         /*
          * Controller bekommt durch Ext automatisch einen getter auf Stores: getSTOREIDStore() 
          */
         var customersStore = this.getCustomerStore();
         customersStore.each(function(modelObj) {
-        	console.log(modelObj);
+        	console.log('Customer: ' + modelObj.getData().name);
+        	var mortgages = modelObj.mortgages();
+        	mortgages.each(function(mortgage) {
+            	console.log('\tMortgage: ' + mortgage.getData().name + ',' + mortgage.getData().price);
+            });
         });
         
     },
