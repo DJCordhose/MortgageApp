@@ -4,9 +4,10 @@ Ext.define('MortgageApp.model.Mortage', {
     fields: [
         { name: 'name', type: 'string' },
         { name: 'price', type: 'int' },
-        { name: 'downpayment', type: 'int' },
-        { name: 'rate', type: 'double' },
+        { name: 'down', type: 'int' },
+        { name: 'interest', type: 'double' },
         { name: 'term', type: 'int' }
-    ]
+    ],
+    belongsTo: 'Customer'
 });
 
