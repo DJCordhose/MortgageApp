@@ -6,27 +6,30 @@ Ext.define('MortgageApp.controller.Main', {
     ],
     
     init: function() {
-        console.log("Los geht's!");
+    	
+        console.log("Los geht's. Hänge Eventlistener an UI-Elemente...");
 
         this.control({
-            'viewport > panel': {
-                render: this.onPanelRendered
+            'action-panel button[itemId=btnDump]': {
+                click: this.onDumpButtonClick
             }
         });
+        
         this.control({
-            'main': {
-                render: this.onMainPanelRendered
+            'action-panel button[itemId=btnNew]': {
+                click: this.onNewButtonClick
             }
         });
+        
     },
 
-    onPanelRendered: function(panel) {
-        console.log('The panel was rendered: ' + panel);
+    onDumpButtonClick: function(button,event,eOpts) {
+        console.log('Dump Button clicked: ' + button.getItemId());
 
     },
 
-    onMainPanelRendered: function(panel) {
-        console.log('The Main panel was rendered ' + panel);
+    onNewButtonClick: function(button,event,eOpts) {
+        console.log('New Button clicked: ' + button.getItemId());
     }
-
+    
 });

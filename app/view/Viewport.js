@@ -13,7 +13,7 @@ Ext.define('MortgageApp.view.Viewport', {
     items: [{
         region: 'north',
         xtype: 'action-panel',
-        height: 50
+        //height: 50
     },{
         region: 'center',
         xtype: 'customer-mortgage-tree',
