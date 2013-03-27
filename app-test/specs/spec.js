@@ -20,7 +20,8 @@ describe("REST", function() {
             term: 30
         });
 
-        olli.mortgages().add(mortgage1);
+        var mortgages = olli.mortgages();
+        mortgages.add(mortgage1);
     });
 
     it("save", function() {
@@ -42,10 +43,11 @@ describe("REST", function() {
 
         runs(function() {
             expect(customer.getId()).toEqual(1);
+            expect(customer.getData().name).toEqual('Olli');
             var mortgages = customer.mortgages();
-//                expect(mortgages.length).toEqual(10);
-//                var mortgage = mortgages.getAt(0);
-//                expect(mortgage.name).toEqual('Haus');
+            expect(mortgages.count()).toEqual(1);
+            var mortgage = mortgages.getAt(0);
+            expect(mortgage.getData().name).toEqual('Haus');
         });
 
 
