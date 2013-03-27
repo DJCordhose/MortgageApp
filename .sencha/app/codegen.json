@@ -11,6 +11,9 @@
     },
     "app.json.tpl.merge": {
       "e5f71b1bb6813850ab3a32f5d235c01c12678423": "eJyr5lIAAqW8xNxUJSsFpWoQo1aJqxYAS3MGqQ\u003d\u003d"
+    },
+    "{modelFileName}.js.tpl.merge": {
+      "6f76a4fb35ea6bf4f236650606a8013f29a2b889": "eJxlUUluwyAU3fsUX5EisGLRdOuhXVTd9gKWFzTGDRLBCHDkCnH3MsSpmv4FH3gDD3hfLRnZxCXDyFGlPuiFeXKZRyaIk3GBKnAFhGKrZXKsAblPatiboMYEMEFpmDgTo6mhd/u0jnWlYmGGZAg6wNMiT5bPMszSXnkz32qaNeAr1aCZDfx+qEBRbaM2C4hRgluMKlRWwMP2sQmtzSwimPyy5wYOB/7onONomIImkXs+bGY1Kpt/5JCAqMWcsYP4EDVM/THEsd8qzZ8H8A8qXxQPBouWsTW/gC/xn0e5Wex9a5WI1+92Gdi93DVbAHT/kRwCudg9Au96wCuXI1uh62A9zYu0JbwCQhBoFYLBt0/hgOw5FDF58QM1pov2"
     }
   },
   "targets": {
@@ -42,8 +45,8 @@
       "version": "ca9cfeb9d3913435880b586ce4603fc886054b52",
       "parameters": {
         "appName": "MortgageApp",
-        "frameworkPath": "../../ext-4.2.0.663",
-        "appModels": "",
+        "frameworkPath": "ext",
+        "appModels": "Customer,Mortage",
         "appControllers": "Main",
         "appStores": "",
         "appViews": "Main,Viewport"
@@ -93,6 +96,28 @@
         "name": "MortgageApp",
         "library": "all",
         "appStores": ""
+      }
+    },
+    "app/model/Customer.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "6f76a4fb35ea6bf4f236650606a8013f29a2b889",
+      "parameters": {
+        "appName": "MortgageApp",
+        "baseClass": "Ext.data.Model",
+        "modelFileName": "Customer",
+        "name": "Customer",
+        "fields": "id:int:null,name:auto:null"
+      }
+    },
+    "app/model/Mortage.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "6f76a4fb35ea6bf4f236650606a8013f29a2b889",
+      "parameters": {
+        "appName": "MortgageApp",
+        "baseClass": "Ext.data.Model",
+        "modelFileName": "Mortage",
+        "name": "Mortage",
+        "fields": "name:string:null,price:int:null,downpayment:int:null,rate:double:null,term:int:null"
       }
     }
   }

@@ -16,6 +16,11 @@
 Ext.application({
     name: 'MortgageApp',
 
+    models:[
+        'Customer',
+        'Mortage'
+    ],
+
     views: [
         'Main',
         'Viewport'
