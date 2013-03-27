@@ -5,7 +5,7 @@ Ext.define('MortgageApp.model.Customer', {
         { name: 'id', type: 'int' },
         { name: 'name', type: 'auto' }
     ],
-    hasMany: { model: 'MortgageApp.model.Mortage', name: 'mortgages' },
+    hasMany: { model: 'MortgageApp.model.Mortgage', name: 'mortgages' },
     proxy: {
         type: 'rest',
         url : 'http://mortgage-demo.appspot.com/customer',

@@ -1,4 +1,4 @@
-Ext.define('MortgageApp.model.Mortage', {
+Ext.define('MortgageApp.model.Mortgage', {
     extend: 'Ext.data.Model',
     
     fields: [
@@ -10,18 +10,3 @@ Ext.define('MortgageApp.model.Mortage', {
     ],
     belongsTo: 'Customer'
 });
-
-{
-    "id": 1,
-    "name": "Opa",
-    "mortgages": [
-        {"name": "haus", "price": 200000, "down": 10, "interest": 7, "term": 30},
-        {"name": "hütte", "price": 200000, "down": 10, "interest": 7, "term": 30}
-    ]
-},{
-    "id": 2,
-    "name": "Oma",
-    "mortgages": [
-        {"name": "haus", "price": 200000, "down": 10, "interest": 7, "term": 30}
-    ]
-}
