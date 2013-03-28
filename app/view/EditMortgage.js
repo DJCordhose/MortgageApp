@@ -10,6 +10,7 @@ Ext.define("MortgageApp.view.EditMortgage", {
         this.items = [
             {
                 xtype: 'form',
+                itemId: 'edit-mortgage-form',
                 items: [
                     {
                         xtype: 'textfield',

@@ -1,6 +1,11 @@
 Ext.define('MortgageApp.controller.Main', {
     extend: 'Ext.app.Controller',
-    
+
+    /*
+    models: [
+            'MortgageApp.model.Mortgage'
+    ],
+*/
     stores: [
        'Customer'
     ],
@@ -43,8 +48,23 @@ Ext.define('MortgageApp.controller.Main', {
     },
 
     onNewButtonClick: function(button,event,eOpts) {
-    	var view = Ext.widget('edit-mortgage');
-        console.log('New Button clicked: ' + button.getItemId());
+    	
+    	console.log('New Button clicked: ' + button.getItemId());
+    	
+    	var newMortgage = Ext.create('MortgageApp.model.Mortgage', {
+    	    name   : '_blabla_',
+    	    price : 123456789,
+    	    down  : 1,
+    	    interest: 99.94,
+    	    term: 22
+    	});
+    	console.log('New Mortgage: ' + newMortgage);
+    	
+    	var editMortgageWindow = Ext.widget('edit-mortgage');
+    	var form = editMortgageWindow.queryById('edit-mortgage-form');
+    	console.log('form: ' + form);
+    	form.loadRecord(newMortgage);
+    	
     }
     
 });
