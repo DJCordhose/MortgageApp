@@ -67,8 +67,19 @@ Ext.define("MortgageApp.view.EditMortgage", {
             		var errors = currentModel.validate();
             		
             		if(errors.isValid()) {
-            			currentModel.save({
-            				scope: this, // this ist hier das window und wird an den success-callback durchgereicht, damit dort window-close funktioniert
+            			
+            			/*
+            			 * Hier currentModel.save() ausgetauscht gegen Aufrufe am
+            			 * Store. Wenn nur save() am Model aufgerufen wird, wird
+            			 * zwar das entity zum Server gespeichert, das geht aber
+            			 * komplett am Store vorbei, der feuert keine change-Events
+            			 * und das Grid aktualisiert sich daher nicht.
+            			 * Mit add() und sync() wird aber das Grid sauber aktualisiert. 
+            			 */
+            	    	var mortgageStore = Ext.data.StoreManager.lookup('Mortgage');
+            			mortgageStore.add(currentModel);
+            			mortgageStore.sync({
+            				scope: this,
             				success: function() { 
             					this.close();
             				},
