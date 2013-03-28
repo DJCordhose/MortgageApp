@@ -53,6 +53,7 @@ Ext.define('MortgageApp.controller.Main', {
     	
     	var newMortgage = Ext.create('MortgageApp.model.Mortgage', {
     	    name   : '_blabla_',
+    	    customerId: 1,
     	    price : 123456789,
     	    down  : 1,
     	    interest: 99.94,
