@@ -2,22 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Customer.js" afterPath="$PROJECT_DIR$/app/model/Customer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Mortgage.js" afterPath="$PROJECT_DIR$/app/model/Mortgage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customerAndMortgagesTestdata.json" afterPath="$PROJECT_DIR$/customerAndMortgagesTestdata.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app-test/specs/spec.js" afterPath="$PROJECT_DIR$/app-test/specs/spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MortgageApp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364393066810" ignored="false" />
+    <file path="/Dummy.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364405045680" ignored="false" />
     <file path="/Main.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364388864934" ignored="false" />
-    <file path="$USER_HOME$/New Trainings/JavaScript Training/Trainer/todo.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364389898710" ignored="false" />
-    <file path="/todo.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364389898710" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/Trainer/todo.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364458574088" ignored="false" />
+    <file path="/todo.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364458573178" ignored="false" />
     <file path="/Mortage.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364389242786" ignored="false" />
     <file path="$PROJECT_DIR$/../ExtMortgage/app/spec/SpecRunner.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364391666915" ignored="false" />
     <file path="/SpecRunner.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364391664896" ignored="false" />
     <file path="$PROJECT_DIR$/../ExtMortgage/app/spec/spec.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364389525041" ignored="false" />
-    <file path="/spec.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364394661542" ignored="false" />
+    <file path="/spec.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364467178015" ignored="false" />
     <file path="/run-tests.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364391078404" ignored="false" />
     <file path="/app-test.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364391942006" ignored="false" />
+    <file path="/Customer.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364407804571" ignored="false" />
+    <file path="/Mortgage.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364464214761" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,40 +42,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="333" selection-end="376" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Customer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/Customer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="11" selection-start="179" selection-end="186" vertical-scroll-proportion="0.0">
+            <state line="19" column="27" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mortgage.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="customerAndMortgagesTestdata.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customerAndMortgagesTestdata.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="5" selection-start="18" selection-end="574" vertical-scroll-proportion="-15.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mortgage.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/model/Mortgage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+            <state line="17" column="25" selection-start="616" selection-end="616" vertical-scroll-proportion="0.55921054">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
+      <file leaf-file-name="spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app-test/specs/spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="689" selection-end="848" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="91" column="28" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Viewport.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="21" selection-start="265" selection-end="270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionPanel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/ActionPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="14" selection-start="166" selection-end="172" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,25 +99,16 @@
       <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+            <state line="26" column="8" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app-test/specs/spec.js">
+      <file leaf-file-name="Customer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/store/Customer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="57" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.71153843">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="json2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-test/lib/jasmine-1.3.1/json2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="48" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.0">
+            <state line="3" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,12 +155,13 @@
         <option value="$PROJECT_DIR$/app/spec/spec.js" />
         <option value="$PROJECT_DIR$/app/spec/SpecRunner.html" />
         <option value="$PROJECT_DIR$/app-test/spec/SpecRunner.html" />
-        <option value="$PROJECT_DIR$/app/model/Mortgage.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/app-test.js" />
+        <option value="$PROJECT_DIR$/app-test.js" />
         <option value="$PROJECT_DIR$/run-tests.html" />
         <option value="$PROJECT_DIR$/app/model/Customer.js" />
-        <option value="$PROJECT_DIR$/app-test.js" />
+        <option value="$PROJECT_DIR$/customerAndMortgagesTestdata.json" />
+        <option value="$PROJECT_DIR$/app/model/Mortgage.js" />
         <option value="$PROJECT_DIR$/app-test/specs/spec.js" />
       </list>
     </option>
@@ -262,7 +275,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MortgageApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MortgageApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MortgageApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MortgageApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MortgageApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MortgageApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,6 +388,13 @@
       <option name="testName" />
       <method />
     </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" />
@@ -377,7 +451,11 @@
       <created>1364393071890</created>
       <updated>1364393071890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Now extraction of data from model works">
+      <created>1364394722673</created>
+      <updated>1364394722673</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -389,12 +467,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6706349" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6706349" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6706349" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936507" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -446,7 +524,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="First version of working REST tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now extraction of data from model works" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -464,6 +542,7 @@
     <MESSAGE value="Model and proxy stuff" />
     <MESSAGE value="Added Tests" />
     <MESSAGE value="First version of working REST tests" />
+    <MESSAGE value="Now extraction of data from model works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,30 +550,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="265" selection-end="270" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app-test/lib/jasmine-1.3.1/json2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="48" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -511,13 +569,22 @@
         <state line="28" column="0" selection-start="689" selection-end="848" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1364391245000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: 'MortgageApp'...}" />
+            <marker date="1364391245000" expanded="true" signature="-1:-1" placeholder="[...]" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run-tests.html">
+    <entry file="file://$PROJECT_DIR$/app-test/lib/jasmine-1.3.1/json2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.0">
+        <state line="173" column="48" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.6286127">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-test/lib/jasmine-1.3.1/jasmine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1428" column="35" selection-start="38699" selection-end="38703" vertical-scroll-proportion="-8.538462">
           <folding />
         </state>
       </provider>
@@ -529,23 +596,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Customer.js">
+    <entry file="file://$PROJECT_DIR$/run-tests.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="179" selection-end="186" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/Mortgage.js">
+    <entry file="file://$PROJECT_DIR$/app/view/ActionPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+        <state line="7" column="14" selection-start="166" selection-end="172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="8" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customerAndMortgagesTestdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="18" selection-end="574" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app-test/specs/spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="57" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.71153843">
+        <state line="91" column="28" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="265" selection-end="270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Mortgage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="616" selection-end="616" vertical-scroll-proportion="0.55921054">
           <folding />
         </state>
       </provider>
