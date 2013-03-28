@@ -1,13 +1,8 @@
 Ext.define('MortgageApp.controller.Main', {
     extend: 'Ext.app.Controller',
 
-    /*
-    models: [
-            'MortgageApp.model.Mortgage'
-    ],
-*/
     stores: [
-       'Customer'
+       'Mortgage'
     ],
 
     views: [
