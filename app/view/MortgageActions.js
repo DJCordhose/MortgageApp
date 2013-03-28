@@ -1,8 +1,8 @@
-Ext.define("MortgageApp.view.ActionPanel", {
+Ext.define("MortgageApp.view.MortgageActions", {
     extend: 'Ext.panel.Panel',
     
-    xtype: 'action-panel',
-    title: 'Action Button Panel',
+    xtype: 'mortgage-actions',
+    title: 'Mortage Actions Panel',
     
     items: [{
     	itemId: 'btnDump', // weil ich hier keinen eigenen xtype habe, kann ich hiermit bei domquery mit [itemId=btnDump] den button holen
