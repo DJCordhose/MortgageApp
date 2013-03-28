@@ -13,8 +13,8 @@ Ext.define('MortgageApp.model.Customer', {
     proxy: {
         type: 'rest',
 //        url:'customerAndMortgagesTestdata.json',
-        // url : 'http://mortgage-demo.appspot.com/customer',
-        url : 'http://127.0.0.1:8888/customer',
+        url : 'http://mortgage-demo.appspot.com/customer',
+//        url : 'http://127.0.0.1:8888/customer',
         reader: {
             type: 'json',
             root: 'payload'
