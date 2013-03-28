@@ -77,7 +77,15 @@ Ext.define("MortgageApp.view.EditMortgage", {
             			 * Mit add() und sync() wird aber das Grid sauber aktualisiert. 
             			 */
             	    	var mortgageStore = Ext.data.StoreManager.lookup('Mortgage');
-            			mortgageStore.add(currentModel);
+            	    	
+            	    	/*
+            	    	 * Pfui: Anhand Existenz von id entscheiden, ob der Fall
+            	    	 * 'neu' oder 'update' ist und add() auf Store nur aufrufen
+            	    	 * wenn es ein neues Entity ist.
+            	    	 */ 
+            	    	if(currentModel.getId() < 1) {
+            	    		mortgageStore.add(currentModel);
+            	    	}
             			mortgageStore.sync({
             				scope: this,
             				success: function() { 
