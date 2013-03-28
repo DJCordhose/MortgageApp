@@ -4,55 +4,50 @@ describe("REST", function() {
     var Mortgage;
     var mortgageStore;
     var mortgage1;
-    var mortgage2;
+    var createdId;
 
     beforeEach(function() {
         mortgageStore = Ext.create('MortgageApp.store.Mortgage');
         Mortgage = Ext.ModelMgr.getModel('MortgageApp.model.Mortgage');
 
         mortgage1 = Ext.create('MortgageApp.model.Mortgage', {
-            id: 1,
             name: 'Haus von Olli',
             price : 200000,
             down: 10,
             interest: 7,
             term: 30
         });
-
-        mortgage2 = Ext.create('MortgageApp.model.Mortgage', {
-            id: 1,
-            name: 'Hütte von Ollis Hund',
-            price : 2000000,
-            down: 100,
-            interest: 3,
-            term: 100
-        });
     });
 
-    it("save", function() {
+    it("create and modify", function() {
         var mortgage, flag;
 
         runs(function() {
             flag = false;
             mortgage1.save({
                 success: function(result) {
-                    flag = true;
                     mortgage = result;
-
+                    createdId = mortgage.getId();
+                    mortgage.set('down', 20);
+                    mortgage.save({
+                        success: function(result) {
+                            flag = true;
+                            mortgage = result;
+                        }
+                    });
                 }
             });
         });
 
         waitsFor(function() {
             return flag;
-        }, "Mortgage save call needs to return", 750);
+        }, "Mortgage save call needs to return", 10000);
 
         runs(function() {
-            expect(mortgage.getId()).toEqual(1);
+            expect(mortgage.getId()).toBeGreaterThan(0);
             expect(mortgage.get('name')).toEqual('Haus von Olli');
+            expect(mortgage.get('down')).toEqual(20);
         });
-
-
     });
 
     it("load", function() {
@@ -60,7 +55,7 @@ describe("REST", function() {
 
         runs(function() {
             flag = false;
-            Mortgage.load(1, {
+            Mortgage.load(createdId, {
                 success: function(result) {
                     flag = true;
                     mortgage = result;
@@ -70,11 +65,12 @@ describe("REST", function() {
 
         waitsFor(function() {
             return flag;
-        }, "Mortgage load request needs to return", 750);
+        }, "Mortgage load request needs to return", 5000);
 
         runs(function() {
-            expect(mortgage.getId()).toEqual(1);
+            expect(mortgage.getId()).toEqual(createdId);
             expect(mortgage.get('name')).toEqual('Haus von Olli');
+            expect(mortgage.get('down')).toEqual(20);
         });
     });
 
@@ -95,7 +91,7 @@ describe("REST", function() {
 
         waitsFor(function() {
             return flag;
-        }, "Load all mortgages needs to return", 750);
+        }, "Load all mortgages needs to return", 5000);
 
         runs(function() {
             expect(mortgages.length).toBeGreaterThan(0);
