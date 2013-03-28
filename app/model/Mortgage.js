@@ -13,6 +13,8 @@ Ext.define('MortgageApp.model.Mortgage', {
         type: 'rest',
 //        url : 'http://127.0.0.1:8888/mortgage',
         url : 'http://mortgage-demo.appspot.com/mortgage',
+//        url : 'customerAndMortgagesTestdata.json',
+//        url : 'http://localhost:8080/rest/mortgage',
         reader: {
             type: 'json',
             root: 'payload'
@@ -20,4 +22,3 @@ Ext.define('MortgageApp.model.Mortgage', {
     }
 
 });
-

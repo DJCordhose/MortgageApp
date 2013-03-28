@@ -1,6 +1,6 @@
 "use strict";
 
-describe("REST", function() {
+describe("Rest calls", function() {
     var Mortgage;
     var mortgageStore;
     var mortgage1;
