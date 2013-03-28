@@ -34,7 +34,7 @@ Ext.define('MortgageApp.controller.Main', {
 
     onDumpButtonClick: function(button,event,eOpts) {
         /*
-         * Controller bekommt durch Ext automatisch einen getter auf Stores: getSTOREIDStore() 
+         * Controller bekommt durch Ext automatisch einen getter auf Stores: getSTOREIDStore()  
          */
         var customersStore = this.getCustomerStore();
         customersStore.each(function(modelObj) {
