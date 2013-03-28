@@ -4,6 +4,10 @@ Ext.define('MortgageApp.controller.Main', {
     stores: [
        'Customer'
     ],
+
+    views: [
+            'EditMortgage'
+    ],
     
     init: function() {
     	
@@ -39,6 +43,7 @@ Ext.define('MortgageApp.controller.Main', {
     },
 
     onNewButtonClick: function(button,event,eOpts) {
+    	var view = Ext.widget('edit-mortgage');
         console.log('New Button clicked: ' + button.getItemId());
     }
     
