@@ -47,7 +47,38 @@ Ext.define("MortgageApp.view.EditMortgage", {
         this.buttons = [
             {
                 text: 'Save',
-                action: 'save'
+                action: 'save',
+                /*
+                 * Kann leider nicht vom Button aufwärts auf das form
+                 * schließen, weil button und form nebeneinander im 
+                 * window liegen. Daher hier scope:this, damit 'this'
+                 * das Window ist und ich von dort aus per query
+                 * auf das form komme.
+                 */
+                scope: this, 
+                handler: function() {
+                	
+                	var formPanel = this.queryById('edit-mortgage-form');
+                	var form = formPanel.getForm();
+                	
+            		var currentModel = form.getRecord();
+            		form.updateRecord(currentModel);
+            		
+            		var errors = currentModel.validate();
+            		
+            		if(errors.isValid()) {
+            			currentModel.save({
+            				scope: this, // this ist hier das window und wird an den success-callback durchgereicht, damit dort window-close funktioniert
+            				success: function() { 
+            					this.close();
+            				},
+            				failure: function() { console.log("fehler beim server-call..."); },
+            			});
+            		} else {
+            			console.log("clientseitig fehler entdeckt, hier muss noch was passieren...");
+            		}
+
+                }
             },
             {
                 text: 'Cancel',

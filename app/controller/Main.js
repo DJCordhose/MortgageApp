@@ -14,13 +14,13 @@ Ext.define('MortgageApp.controller.Main', {
         console.log("Los geht's. Hänge Eventlistener an UI-Elemente...");
 
         this.control({
-            'action-panel button[itemId=btnDump]': {
+            'mortgage-actions button[itemId=btnDump]': {
                 click: this.onDumpButtonClick
             }
         });
         
         this.control({
-            'action-panel button[itemId=btnNew]': {
+            'mortgage-actions button[itemId=btnNew]': {
                 click: this.onNewButtonClick
             }
         });
@@ -47,7 +47,7 @@ Ext.define('MortgageApp.controller.Main', {
     	console.log('New Button clicked: ' + button.getItemId());
     	
     	var newMortgage = Ext.create('MortgageApp.model.Mortgage', {
-    	    name   : '_blabla_',
+    	    name   : 'defaultwerte',
     	    price : 123456789,
     	    down  : 1,
     	    interest: 99.94,

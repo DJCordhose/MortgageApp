@@ -1,4 +1,4 @@
-Ext.define('MortgageApp.view.CustomerMortgageTree', {
+Ext.define('MortgageApp.view.MortgageList', {
     extend: 'Ext.grid.Panel',
     
     /*
@@ -8,11 +8,11 @@ Ext.define('MortgageApp.view.CustomerMortgageTree', {
         'Ext.tree.*'
     ],
     */    
-    xtype: 'customer-mortgage-tree',
+    xtype: 'mortgage-list',
     
-    store: 'Customer',
+    store: 'Mortgage',
     
-    title: 'CustomerMortgageTree',
+    title: 'Mortgage List',
     
     columns: [
               {
