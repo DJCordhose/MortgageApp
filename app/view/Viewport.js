@@ -14,9 +14,7 @@ Ext.define('MortgageApp.view.Viewport', {
         region: 'north',
         xtype: 'mortgage-actions',
         //height: 50
-    }
-    /*
-    ,{
+    },{
         region: 'center',
         xtype: 'mortgage-list',
         border: 10,
@@ -25,6 +23,5 @@ Ext.define('MortgageApp.view.Viewport', {
             borderStyle: 'solid'
         }
     }
-    */
     ]
 });
