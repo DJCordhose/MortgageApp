@@ -1,19 +1,14 @@
 Ext.define('MortgageApp.view.MortgageList', {
     extend: 'Ext.grid.Panel',
     
-    /*
-    requires: [
-        'Ext.data.*',
-        'Ext.grid.*',
-        'Ext.tree.*'
-    ],
-    */    
     xtype: 'mortgage-list',
     
     store: 'Mortgage',
     
     title: 'Mortgage List',
     
+    columnLines: true,
+
     columns: [
               /*{
                   text: 'ID',
@@ -52,18 +47,6 @@ Ext.define('MortgageApp.view.MortgageList', {
                   dataIndex: 'term',
                   hidden: false
               }
-       ],
-    
-    /*
-    height: 300,
-    useArrows: true,
-    rootVisible: false,
-    multiSelect: true,
-    singleExpand: true,
-    
-    initComponent: function() {
-        this.callParent(arguments);
-    }
-     */
+       ]
 
 });

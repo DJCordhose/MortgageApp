@@ -16,12 +16,7 @@ Ext.define('MortgageApp.view.Viewport', {
         //height: 50
     },{
         region: 'center',
-        xtype: 'mortgage-list',
-        border: 10,
-        style: {
-            borderColor: 'red',
-            borderStyle: 'solid'
-        }
+        xtype: 'mortgage-list'
     }
     ]
 });
