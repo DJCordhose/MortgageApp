@@ -58,27 +58,26 @@ Ext.define("MortgageApp.view.EditMortgage", {
                 scope: this, 
                 handler: function() {
                 	
-                	var me = this;
-                	console.log(me);
-                	var form = this.queryById('edit-mortgage-form');
-                	console.log(form);
+                	var formPanel = this.queryById('edit-mortgage-form');
+                	var form = formPanel.getForm();
                 	
-                	if (form.isValid()) {
-                		var currentModel = form.getRecord();
-                		form.getForm().updateRecord(currentModel);
-                		currentModel.save();
-                		//form.getRecord().save();
-                		/*
-                        form.submit({
-                            success: function(form, action) {
-                               Ext.Msg.alert('Success', action.result.msg);
-                            },
-                            failure: function(form, action) {
-                                Ext.Msg.alert('Failed', action.result.msg);
-                            }
-                        });
-                        */
-                    }
+            		var currentModel = form.getRecord();
+            		form.updateRecord(currentModel);
+            		
+            		var errors = currentModel.validate();
+            		
+            		if(errors.isValid()) {
+            			currentModel.save({
+            				scope: this, // this ist hier das window und wird an den success-callback durchgereicht, damit dort window-close funktioniert
+            				success: function() { 
+            					this.close();
+            				},
+            				failure: function() { console.log("fehler beim server-call..."); },
+            			});
+            		} else {
+            			console.log("clientseitig fehler entdeckt, hier muss noch was passieren...");
+            		}
+
                 }
             },
             {

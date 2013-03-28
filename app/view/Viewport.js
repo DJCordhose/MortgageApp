@@ -14,7 +14,9 @@ Ext.define('MortgageApp.view.Viewport', {
         region: 'north',
         xtype: 'action-panel',
         //height: 50
-    },{
+    }
+    /*
+    ,{
         region: 'center',
         xtype: 'customer-mortgage-tree',
         border: 10,
@@ -22,5 +24,7 @@ Ext.define('MortgageApp.view.Viewport', {
             borderColor: 'red',
             borderStyle: 'solid'
         }
-    }]
+    }
+    */
+    ]
 });
