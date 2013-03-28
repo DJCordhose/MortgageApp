@@ -1,26 +1,18 @@
 {"payload": [
     {
+        "id": 1,
+        "name": "haus",
+        "price": 200000,
+        "down": 10,
+        "interest": 7,
+        "term": 30
+    },
+    {
         "id": 2,
-        "name": "Oma",
-        "mortgages": [
-            {
-                "id": 1,
-                "customerId": 2,
-                "name": "haus",
-                "price": 200000,
-                "down": 10,
-                "interest": 7,
-                "term": 30
-            },
-            {
-                "id": 2,
-                "customerId": 2,
-                "name": "hütte",
-                "price": 200000,
-                "down": 10,
-                "interest": 7,
-                "term": 30
-            }
-        ]
+        "name": "hütte",
+        "price": 200000,
+        "down": 10,
+        "interest": 7,
+        "term": 30
     }
 ], "success": true}
