@@ -21,7 +21,16 @@ Ext.application({
     ],
 
     controllers: [
-        'Main'
+        'Main',
+        'Form'
+    ],
+
+    stores: [
+        'Mortgage'
+    ],
+
+    models: [
+        'Mortgage'
     ],
 
     autoCreateViewport: true

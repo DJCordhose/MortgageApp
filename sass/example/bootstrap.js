@@ -18,9 +18,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.FieldReplicator": [],
   "MortgageApp.view.Main": [],
   "Ext.ux.grid.filter.ListFilter": [],
+  "MortgageApp.store.Mortgage": [],
   "Ext.ux.ajax.XmlSimlet": [],
   "Ext.ux.event.Driver": [],
-  "MortgageApp.model.Customer": [],
   "Ext.ux.dd.PanelFieldDragZone": [],
   "Ext.ux.DataView.DragSelector": [],
   "Ext.ux.grid.menu.ListMenu": [],
@@ -33,6 +33,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.grid.filter.StringFilter": [],
   "Ext.ux.statusbar.ValidationStatus": [],
   "Ext.ux.layout.Center": [],
+  "MortgageApp.view.MortgageForm": [],
   "Ext.ux.PreviewPlugin": [],
   "Ext.ux.DataView.Animated": [],
   "MortgageApp.view.Viewport": [],
@@ -44,6 +45,7 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.ux.StatusBar"
   ],
   "Ext.ux.ajax.Simlet": [],
+  "MortgageApp.model.Mortgage": [],
   "Ext.ux.SlidingPager": [],
   "MortgageApp.controller.Main": [],
   "Ext.ux.TabReorderer": [],
@@ -51,8 +53,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.grid.menu.RangeMenu": [],
   "Ext.ux.RowExpander": [],
   "Ext.ux.event.Recorder": [],
+  "MortgageApp.controller.Form": [],
   "Ext.ux.event.Player": [],
-  "MortgageApp.model.Mortage": [],
   "Ext.ux.ajax.SimManager": [],
   "Ext.ux.grid.filter.BooleanFilter": [],
   "Ext.ux.ToolbarDroppable": [],
@@ -62,6 +64,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.DataView.Draggable": [],
   "Ext.ux.TabCloseMenu": [],
   "Ext.ux.form.SearchField": [],
+  "MortgageApp.view.MortgageWindow": [],
   "Ext.ux.dd.CellFieldDropZone": [],
   "Ext.ux.LiveSearchGridPanel": [],
   "Ext.ux.DataTip": [],
@@ -87,15 +90,17 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.ajax.DataSimlet": [],
   "Ext.ux.grid.TransformGrid": [],
   "Ext.ux.FieldReplicator": [],
-  "MortgageApp.view.Main": [],
+  "MortgageApp.view.Main": [
+    "widget.mortgage-list"
+  ],
   "Ext.ux.grid.filter.ListFilter": [
     "gridfilter.list"
   ],
+  "MortgageApp.store.Mortgage": [],
   "Ext.ux.ajax.XmlSimlet": [
     "simlet.xml"
   ],
   "Ext.ux.event.Driver": [],
-  "MortgageApp.model.Customer": [],
   "Ext.ux.dd.PanelFieldDragZone": [],
   "Ext.ux.DataView.DragSelector": [],
   "Ext.ux.grid.menu.ListMenu": [],
@@ -117,6 +122,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.layout.Center": [
     "layout.ux.center"
   ],
+  "MortgageApp.view.MortgageForm": [
+    "widget.mortgage-form"
+  ],
   "Ext.ux.PreviewPlugin": [
     "plugin.preview"
   ],
@@ -136,6 +144,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.ajax.Simlet": [
     "simlet.basic"
   ],
+  "MortgageApp.model.Mortgage": [],
   "Ext.ux.SlidingPager": [],
   "MortgageApp.controller.Main": [],
   "Ext.ux.TabReorderer": [],
@@ -145,8 +154,8 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.grid.menu.RangeMenu": [],
   "Ext.ux.RowExpander": [],
   "Ext.ux.event.Recorder": [],
+  "MortgageApp.controller.Form": [],
   "Ext.ux.event.Player": [],
-  "MortgageApp.model.Mortage": [],
   "Ext.ux.ajax.SimManager": [],
   "Ext.ux.grid.filter.BooleanFilter": [
     "gridfilter.boolean"
@@ -165,6 +174,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "Ext.ux.form.SearchField": [
     "widget.searchfield"
+  ],
+  "MortgageApp.view.MortgageWindow": [
+    "widget.edit-mortgage"
   ],
   "Ext.ux.dd.CellFieldDropZone": [],
   "Ext.ux.LiveSearchGridPanel": [],

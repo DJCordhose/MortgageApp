@@ -1,6 +1,6 @@
 Ext.define('MortgageApp.model.Mortgage', {
     extend: 'Ext.data.Model',
-
+    
     fields: [
         { name: 'id', type: 'int' },
         { name: 'name', type: 'string' },
@@ -13,7 +13,6 @@ Ext.define('MortgageApp.model.Mortgage', {
         type: 'rest',
 //        url : 'http://127.0.0.1:8888/mortgage',
         url : 'http://mortgage-demo.appspot.com/mortgage',
-//        url : 'customerAndMortgagesTestdata.json',
 //        url : 'http://localhost:8080/rest/mortgage',
         reader: {
             type: 'json',
@@ -22,3 +21,4 @@ Ext.define('MortgageApp.model.Mortgage', {
     }
 
 });
+
