@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" name="Default" comment="Finished rest tests">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/Form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/Main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/MortgageForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/MortgageWindow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/service.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/EditMortgage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/MortgageActions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/view/MortgageList.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Main.js" afterPath="$PROJECT_DIR$/app/controller/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Mortgage.js" afterPath="$PROJECT_DIR$/app/model/Mortgage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/Mortgage.js" afterPath="$PROJECT_DIR$/app/store/Mortgage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Viewport.js" afterPath="$PROJECT_DIR$/app/view/Viewport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/example/bootstrap.js" afterPath="$PROJECT_DIR$/sass/example/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app-test/specs/mvc.js" afterPath="$PROJECT_DIR$/app-test/specs/mvc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run-tests.html" afterPath="$PROJECT_DIR$/run-tests.html" />
+    <list default="true" id="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" name="Default" comment="Completed application">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/customerAndMortgagesTestdata.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MortgageApp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364762861775" ignored="false" />
+    <file path="/Dummy.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365110375651" ignored="false" />
     <file path="/Main.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364589594220" ignored="false" />
-    <file path="$USER_HOME$/New Trainings/JavaScript Training/Trainer/todo.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364596378333" ignored="false" />
-    <file path="/todo.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364596112146" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/Trainer/todo.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365110347192" ignored="false" />
+    <file path="/todo.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365073284281" ignored="false" />
     <file path="/Mortage.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364389242786" ignored="false" />
     <file path="$PROJECT_DIR$/../ExtMortgage/app/spec/SpecRunner.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364391666915" ignored="false" />
     <file path="/SpecRunner.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364391664896" ignored="false" />
@@ -36,27 +20,27 @@
     <file path="/app-test.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364391942006" ignored="false" />
     <file path="/Customer.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364407804571" ignored="false" />
     <file path="/Mortgage.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364762551784" ignored="false" />
-    <file path="/mvc.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364762644304" ignored="false" />
-    <file path="$USER_HOME$/New Trainings/JavaScript Training/.idea/workspace.xml" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364762861156" ignored="false" />
+    <file path="/mvc.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365072404724" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/.idea/workspace.xml" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365110411033" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/4 Full App/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364556657848" ignored="false" />
-    <file path="/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364579105202" ignored="false" />
+    <file path="/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365001310084" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/4 Full App/mortgage-grid.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364556989258" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/2 Plain/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364556777974" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/3 Grid/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364556797337" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/4 Full App/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364556997229" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/4 App Structure/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364557281416" ignored="false" />
-    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/4 App Structure/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364557304579" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/4 App Structure/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364910538710" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Handlers/mortgage-list.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364557682364" ignored="false" />
-    <file path="/mortgage-list.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364557485765" ignored="false" />
+    <file path="/mortgage-list.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364910699047" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Handlers/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364558436858" ignored="false" />
-    <file path="/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364575574964" ignored="false" />
-    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364575697769" ignored="false" />
-    <file path="/ext-js.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364569130612" ignored="false" />
-    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext-js.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364569132823" ignored="false" />
+    <file path="/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364989326390" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364977120990" ignored="false" />
+    <file path="/ext-js.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365107304371" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext-js.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365107402665" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/mortgage-form.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364574092844" ignored="false" />
     <file path="/mortgage-form.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364574074788" ignored="false" />
     <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/edit-mortgage.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364579063600" ignored="false" />
-    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364571686204" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364989806533" ignored="false" />
     <file path="$USER_HOME$/tmp/MortgageApp/app/store/store.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364578332867" ignored="false" />
     <file path="$USER_HOME$/tmp/MortgageApp/app/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364579405839" ignored="false" />
     <file path="$USER_HOME$/tmp/MortgageApp/app/store/Mortgage.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364595544928" ignored="false" />
@@ -74,6 +58,50 @@
     <file path="/Form.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364595371828" ignored="false" />
     <file path="$USER_HOME$/tmp/MortgageApp/app/model/Mortgage.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364595665800" ignored="false" />
     <file path="$USER_HOME$/tmp/MortgageApp/run-tests.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364596458007" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/exercise-ext/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364801288758" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/exercise/exercise-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365108493749" ignored="false" />
+    <file path="/exercise-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365108252528" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/1 HelloWorld/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364989330891" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/2 Form/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364827360499" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/basics-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364906449724" ignored="false" />
+    <file path="/basics-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364906448710" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/grid-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365108674954" ignored="false" />
+    <file path="/grid-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365108669319" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/handlers-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365109136690" ignored="false" />
+    <file path="/handlers-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365109033963" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/xtypes-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365108879964" ignored="false" />
+    <file path="/xtypes-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365108789468" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/Sandbox/app.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364909962351" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/Sandbox/sandbox.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364920115585" ignored="false" />
+    <file path="/sandbox.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364980348772" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/Sandbox/sandbox.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364980525407" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/1 HelloWorld/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364910519363" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/2 Form/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364910525046" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/3 Grid/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364910530443" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/4 App Structure/mortgage-list.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364913115357" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/Sandbox/MyClass.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364911987000" ignored="false" />
+    <file path="/MyClass.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364911939275" ignored="false" />
+    <file path="/sandbox.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364919380574" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/Sandbox/oo.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364922390596" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/Trainer/plan-ext.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365107429891" ignored="false" />
+    <file path="/plan-ext.txt" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365107429891" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/5 Complete/mortgage-list.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364973673590" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/handlers2-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365109228074" ignored="false" />
+    <file path="/handlers2-ext.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364980274159" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/Sandbox/closure.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364980688668" ignored="false" />
+    <file path="/closure.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1364980678646" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/201/index.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365001310084" ignored="false" />
+    <file path="/mvc.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365109450960" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/mvc.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365109463828" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/6 MVC Overlay/app/view/MortgageForm.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365004360416" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/mvc2.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365067736550" ignored="false" />
+    <file path="/mvc2.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365067714924" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/6 MVC Overlay/app/controller/Main.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365009163525" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/tests.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365109714886" ignored="false" />
+    <file path="/tests.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365104805156" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/ext/rest-proxy.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365109559784" ignored="false" />
+    <file path="/rest-proxy.html" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365109540848" ignored="false" />
+    <file path="$USER_HOME$/New Trainings/JavaScript Training/code-ext/8 Tests Overlay/app-test/specs/mvc.js" changelist="35c6dfe3-db66-4db0-b8bf-060b7fd0c248" time="1365073393320" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,53 +121,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="-10.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mvc.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-test/specs/mvc.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="41" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mortgage.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/model/Mortgage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="49" selection-start="425" selection-end="425" vertical-scroll-proportion="0.21475771">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mortgage.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/store/Mortgage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app-test/specs/rest.js">
+      <file leaf-file-name="app.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -174,13 +157,13 @@
         <option value="$PROJECT_DIR$/app-test.js" />
         <option value="$PROJECT_DIR$/app/model/Customer.js" />
         <option value="$PROJECT_DIR$/app/store/Customer.js" />
-        <option value="$PROJECT_DIR$/app/controller/Main.js" />
         <option value="$PROJECT_DIR$/app-test/specs/spec.js" />
         <option value="$PROJECT_DIR$/app-test/specs/rest.js" />
         <option value="$PROJECT_DIR$/customerAndMortgagesTestdata.json" />
         <option value="$PROJECT_DIR$/run-tests.html" />
         <option value="$PROJECT_DIR$/app/model/Mortgage.js" />
         <option value="$PROJECT_DIR$/app-test/specs/mvc.js" />
+        <option value="$PROJECT_DIR$/app/controller/Main.js" />
       </list>
     </option>
   </component>
@@ -359,9 +342,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -378,8 +362,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app-test/specs" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -494,7 +478,11 @@
       <created>1364474258434</created>
       <updated>1364474258434</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Completed application">
+      <created>1364762911524</created>
+      <updated>1364762911524</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -505,7 +493,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6706349" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19690502" sideWeight="0.9775641" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20117396" sideWeight="0.9893162" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -563,7 +551,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished rest tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed application" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -587,6 +575,7 @@
     <MESSAGE value="Standalone mortgage support" />
     <MESSAGE value="Removed customer" />
     <MESSAGE value="Finished rest tests" />
+    <MESSAGE value="Completed application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,9 +583,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/customerAndMortgagesTestdata.json">
+    <entry file="file://$PROJECT_DIR$/app-test/specs/rest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="315" selection-end="315" vertical-scroll-proportion="-10.625">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -610,7 +599,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="-10.625">
+        <state line="17" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/Mortgage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/Mortgage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -622,9 +625,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app-test/specs/mvc.js">
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
+        <state line="11" column="16" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-test/specs/rest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -638,7 +648,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/Mortgage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="425" selection-end="425" vertical-scroll-proportion="0.21475771">
+        <state line="24" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.39647576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="91" selection-end="91" vertical-scroll-proportion="0.04955947">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="430" selection-end="430" vertical-scroll-proportion="-7.2580647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.23127754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
