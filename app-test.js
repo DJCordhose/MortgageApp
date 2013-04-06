@@ -1,6 +1,12 @@
 Ext.application({
     name: 'MortgageApp',
 
+    requires: [
+        'MortgageApp.store.Mortgage',
+        'MortgageApp.controller.Main',
+        'MortgageApp.controller.Form'
+    ],
+
     launch: function() {
         var jasmineEnv = jasmine.getEnv();
         jasmineEnv.updateInterval = 1000;
