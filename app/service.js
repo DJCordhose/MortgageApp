@@ -14,4 +14,4 @@ function calculateMortgage(price, down, interest, term) {
         payments: payments.toFixed(0),
         monthly: roundedMonthly.toFixed(2)
     };
-};
+}

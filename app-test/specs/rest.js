@@ -65,7 +65,7 @@ describe("Rest calls", function() {
 
         waitsFor(function() {
             return flag;
-        }, "Mortgage load request needs to return", 5000);
+        }, "Mortgage load request needs to return", 10000);
 
         runs(function() {
             expect(mortgage.getId()).toEqual(createdId);
@@ -91,7 +91,7 @@ describe("Rest calls", function() {
 
         waitsFor(function() {
             return flag;
-        }, "Load all mortgages needs to return", 5000);
+        }, "Load all mortgages needs to return", 10000);
 
         runs(function() {
             expect(mortgages.length).toBeGreaterThan(0);

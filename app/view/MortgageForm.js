@@ -7,7 +7,6 @@ Ext.define('MortgageApp.view.MortgageForm', {
         'Ext.form.Label'
     ],
 
-
     xtype: 'mortgage-form',
 
     padding: 10,
